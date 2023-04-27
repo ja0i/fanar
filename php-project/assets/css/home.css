@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins' , sans-serif;
+
+}
+header{
+    background-color: rgb(213, 207, 198);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 1.8em;
+    text-decoration-style: dotted;
+}
+.navigation a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 30px;
+
+
+}
+.navigation a:hover{
+    color: #5337f2;
+}
+
+section{
+    padding: 20% 0px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    background: url(../../images/work.jpeg) no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #17110a;
+    font-weight: 700;
+}
+.main h2 span{
+    color: #000;
+    font-size: 1em;
+    font-weight: 1000;
+}
+
+.projects{
+    background-color:#d1cac2 ;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+  background-color:#d1cac2 ;
+  min-width: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+  box-shadow: 5px 5px 25px rgba(1 1 1/ 20%);
+  margin: 15px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 0.25em;
+}
+.project-category{
+    font-size: 2em;
+    color: #000;
+}
+.project-title{
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.more-details{
+  text-decoration: none;
+  color:#000;
+  font-size: 2.2em;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #f1f1f1;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.projectes2{
+    background-color:#d1cac2 ;
+   
+}
+.main-btn{
+    color: #15130f;
+    background-color: rgb(182, 168, 153);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+
+}
+.main-btn:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.contents{
+    background: url(../../images/pic4.webp) no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+input{
+    /* position: relative; */
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+input[ type="text"]{
+    
+    width: 300px ;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0.25px;
+    border-radius: 25px 0 0 25px;
+}
+input[ type="submit"]{
+    position:fixed ;
+    border-radius: 0 25px  25px 0;
+    width: 100px ;
+    height: 50px;
+    right: -100px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    background: #7f6c45;
+    color: #000;
+}
+input[ type="submit"]:hover{
+  background: #938972;  
+}
+
+.box{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* width: 500px; */
+    padding-top: 50%;
+    min-height: 100%;
+    /* max-width: 100%; */
+    transform: translate(-50%, -50%);
+}
+
+/* btn قسم وكيلة العلوم*/
+.btn{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+
+
+
+.popup{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+
+/* btn انتهاء كود قسم وكيلة العلوم  */
+
+
+
+/*شؤون الطلاب btn*/
+.btn1{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn1:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup1{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup1{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup1 h6{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup1 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/*شؤون الطلاب btn انتهاء كود */
+
+/* كود وحدة التدريب btn*/
+.btn2{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn2:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup2{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup2{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup2 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup2 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/* كود وحدة التدريب btnانتهاء */
+
+
+/* كود وكيلة النظم btn*/
+.btn3{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn3:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup3{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup3{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup3 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup3 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/* كود وكيلة النظم btn انتهاء*/
+
+
+/* كود وكيلة التقنية*/
+.btn4{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn4:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup4{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup4{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup4 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup4 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/* btn4 كود وكيلة التقنية*/
+
+
+/*  btn5 كود لجنة الاعذار*/
+.btn5{
+    color: #15130f;
+    background-color:rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn5:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup5{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup5{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup5 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup5 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/*  btn5انتهاء كود لجنة الاعذار*/
+
+
+/* كود الاخصائية النفسية btn6*/
+.btn6{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn6:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup6{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup6{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup6 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup6 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #978768;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
+/* كود الاخصائية النفسية btn6 انتهاء */
+
+/* كود الاخصائية الاجتماعية btn 7 */ 
+.btn7{
+    color: #15130f;
+    background-color: rgb(177, 170, 161);
+    text-decoration: none;
+    font-size: 1.1em;
+    display:  inline-block;
+    font-weight: 600;
+    padding: 1em 6em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom:60px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 18%);
+    transition: 0.7s ease;
+}
+.btn7:hover{
+    background-color:rgb(230, 225, 220) ;
+    transform: scale(1.1);
+}
+.popup7{
+    width: 400px;
+    background:#ebe9e6;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    display:ruby-text-container;
+    left:50%;
+    transform: translate(-50% , -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
+}
+.open-popup7{
+    visibility: visible;
+    top:380%;
+    transform: translate(-50% , -50%) scale(1);
+
+
+}
+.popup7 h5{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.popup7 button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #7f6c45;
+    color: #e9e4e4;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0,0.2);
+}
